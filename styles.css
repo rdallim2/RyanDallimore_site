@@ -36,6 +36,15 @@ nav ul li a {
     text-decoration: none;
 }
 
+.links .link {
+    color: azure; /* Change link color to black */
+    text-decoration: none; /* Remove underline */
+}
+
+.links .link:hover {
+    color: gray; /* Change link color on hover */
+}
+
 section {
     padding: 50px 0;
 }
