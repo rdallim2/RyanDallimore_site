@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,6 +36,16 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+}
+
+#photo .container {
+    display: flex;
+    justify-content: center;
+}
+
+#photo img {
+    max-width: 100%;
+    height: auto;
 }
 
 section {
