@@ -1,91 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1 style="text-align: center;">Ryan Dallimore</h1>
-            <nav>
-                <ul style="text-align: center;">
-                    <li><a  href="#about">About</a></li>
-                    <li><a  href="#projects">Projects</a></li>
-                    <li><a  href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div style="text-align: center;">
-                <a style = "color:cyan" href="https://github.com/rdallim2">GitHub</a>
-                <a style = "color:cyan" href="https://www.linkedin.com/in/ryan-dallimore-871aa32ba/">LinkedIn</a>
-                <a style = "color:cyan" href="https://github.com/rdallim2/RyanDallimore_site/raw/master/rdallimoreTechRes.pdf">Resume</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>Ryan Dallimore</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <h1 class="title">Ryan Dallimore</h1>
+                <div class="header-links">
+                    <a href="#about" data-page="about.html">About</a>
+                    <a href="#projects" data-page="projects.html">Projects</a>
+                    <a href="#contact" data-page="contact.html">Contact</a>
+                </div>
             </div>
-        </div>
-    </header>
-
-    <section id="photo">
-        <div class="container">
-            <img src="images/smithrock.jpeg" alt="Ryan Dallimore Photo">
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Welcome to my portfolio website. I'm a Junior at the University of Oregon seeking copncurrent degrees in Computer Science and Music.</p>
-            <p>Coursework: Computer Organization, Intermediate Data Structure, Discrete Mathematics</p>
-            <p>Languages: C/C++, Python, HTML/CSS</p>
-            <p>Version Control: Git</p>
-            <p>Operating Systeme: Unix (Linux, macOS)</p>
-            <p>Please explore my projects below and don't hesitate to reach out.</p>
-
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Hatchmaps</h3>
-                <img src="images/hatchmaps_main.jpeg" alt="Hatchmaps Image">
-                <p>Developed a full-stack web application that aids fly fishers in selection of fly imitations on popular Oregon water-bodies.</p>
-                <p>Uses a MapBox interactive map in conjunction with USGS water temperature data scraped with Puppeteer to create location specific insect life-cycle forecasts.</p>
-                <p>Dockerized client and server files are hosted on an AWS EC2 instance with a SSL certificate from AWS certificate manager, while the MySQL database is managed separately on Amazon RDS.</p>
-                <p>View at: https://hatchmaps.com, Github: https://github.com/rdallim2/hatchMaps</p>
-            </div>
-
-            <div class="project">
-                <h3>Astrologger</h3>
-                <img src="images/astrologger_input.jpeg" alt="Astrologger Image">
-                <p>Implemented a REST-ful Flas.k web application for user storage of astronomical observation logs, primarily to fulfill requirements of observation programs by the Astronomical League</p>
-                <p>Features user sign-up and login authentication, AJAX data conversion (zip-code to coordinates, etc..), storage and retrieval of data, packaging of data to be submitted for Astronomical League programs.</p>
-                <p>Dockerized client and server files follow restful principles for user-specific interactions.</p>
-                <p>Github: https://github.com/rdallim2/AstroLogger</p>
-            </div>
-
-            <div class="project">
-                <h3>Metronome</h3>
-                <img src="images/Metronome.jpeg" alt="Metronome Image">
-                <p>Designed and implemented a Metronome (Musicians timing practice device) for desktop using python, pygame and tKinter.</p>
-                <p>Features core functionality of tempo-adjustment, time-signature-adjustment, sound options and time-gap creation through user input in a seamless, aesthetically pleasing user-interface.</p>
-                <p>Version control managed with Git.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>Email: ryandallimore@gmail.com</p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 My Portfolio</p>
-        </div>
-    </footer>
-</body>
+        </header>
+        <main id="content">
+            <!-- Content will be loaded here -->
+        </main>
+    </body>
+    <script src="script.js"></script>
 </html>
